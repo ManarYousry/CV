@@ -1,0 +1,627 @@
+:root{
+    --main-color:#41b548;
+    --main-bg:#212b36;
+    --main-text-color:#fff
+
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color:#f5f5f5;
+}
+
+
+
+
+
+/*==========================================General style=================================================*/
+h2{
+    font-weight: 700;
+    margin-top: 50px;
+}
+.overlay{
+    width: 100%;
+    background-color: rgba(0 ,0, 0, 0.4)
+}
+.main-text{
+    color:var(--main-color);/*green*/
+}
+.main-color{
+    color:var(--main-text-color);/*white*/
+}
+.main-bg{
+    background-color:var(--main-bg)!important;
+}
+.main-bg h2{
+    color: var(--main-text-color) !important;
+}
+.main-btn{
+    background-color: var(--main-color);
+    color: var(--main-text-color);
+    padding: 12px 25px;
+    margin: 15px 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.main-btn:hover{
+    background-color: var(--main-bg);
+}
+section{
+    padding: 50px 0;
+}
+.section-title{
+ text-align: center;
+ font-weight: bold;
+}
+.divider{
+  width: 100px;
+  height: 3px;
+  margin: 10px auto;
+  background-color: var(--main-color);
+
+}
+.fixed{
+   
+    padding: 10px 0 !important;
+}
+.select{
+    border-bottom-color: var(--main-color) !important;
+}
+/*==========================================End General style===================================================*/
+
+
+
+
+
+
+
+/*========================================== start Header style================================================*/
+header{
+    background-image: url("../../image/bg-1.jpg");
+    background-size: cover;
+    
+}
+.navbar-brand:hover{
+    color: var(--main-text-color) !important;
+    cursor: pointer;
+}
+.navbar-brand:focus{
+    color: var(--main-text-color) !important;
+}
+  header .navbar{
+    position: fixed;
+    top:0;
+    z-index: 9;
+    padding: 20px 0;
+    width: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}  
+header .navbar .navbar-brand{
+    color: var(--main-text-color);
+    font-weight: bold;
+}
+header .navbar .navbar-nav li.nav-item a.nav-link{
+    color:var(--main-text-color);
+    padding: 0 14px; 
+    font-weight:400;
+    font-size: 13px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+}
+header .navbar .navbar-nav li.nav-item.active a.nav-link,header .navbar .navbar-nav li.nav-item:hover a.nav-link{
+    color:var(--main-color);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    
+
+}
+.navbar-toggler i{
+    color: var(--main-text-color);
+    font-size: 20px;
+   
+}
+
+header .info{
+    padding: 130px 0;
+    color: var(--main-text-color);
+
+}
+header .info h1{
+    margin-top: 50px;
+    font-size:60px;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: bold;
+}
+header .info p{
+    font-size:25px;
+    color: azure
+
+}
+header .info ul{
+    padding: 0;
+    list-style: none;
+
+}
+header .info li{
+   
+    margin: 0 10px;
+}
+header .info li a{
+    display: inline-block;
+    color: var(--main-bg);
+    background-color:var(--main-text-color);
+    width:30px;
+    height: 30px;
+    text-align: center;
+    border-radius:50%;
+    line-height:1;
+    font-size: 14px;
+    padding:8px;
+}
+header .info li a:hover{
+    color:var(--main-color);
+}
+
+
+/*==========================================End Header style==================================================*/
+
+
+
+/*======================================== Start About section================================================*/
+
+
+.im img{
+    display: block;
+    width:100%;
+    border-width:5px;
+    border-color:rgb(241, 241, 241);
+    border-style:solid;
+    margin-top: 30px;
+    height:350px;
+}
+
+ /* @media only screen and (max-width:927px)
+  {
+      .im img {
+    float: none;
+ }
+
+}  */
+
+.presonal-inform ul{
+ 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    -webkit-column-count:2; 
+    -moz-column-count: 2; 
+    column-count:2;
+    -webkit-column-gap:20px; 
+  -moz-column-gap:20px; 
+  column-gap:20px; 
+}
+
+.presonal-inform ul li {
+    font-size: 16px;
+    
+}
+
+  .details p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px; 
+
+  }  
+
+.presonal-inform ul li{
+    font-size: 16px;
+    width:300px;
+    margin-bottom:30px;
+    font-family: 'Raleway', sans-serif; 
+    
+}
+@media  only screen and (max-width: 991px){
+
+    .presonal-inform ul li{
+        width:100%;
+        float: left;
+    }
+}
+
+/*======================================== End About section==================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================== Start Skills Section ================================================*/
+.circle{
+    color: var(--main-text-color);
+    font-size: 25px;
+    font-weight: bold;
+}
+#skills h5{
+    color: var(--main-text-color);
+    text-align: center;
+    line-height:60px;
+}
+.circle-text{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+}
+
+/*======================================== End Skills Section ==================================================*/
+
+
+
+/*======================================== Start Resume section================================================*/
+
+/*=========green line in center====================*/
+#resume .tim{
+    position: relative;
+    padding:30px 0;
+}
+#resume .tim::before{
+    content:' ';
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    background-color: var(--main-color);
+    margin: 0 auto;
+    left: 0;
+    right:0;
+}
+
+.icon i{
+    color: var(--main-text-color);
+    background-color: var(--main-color);
+    border:5px solid rgba(255, 255, 255, 0.4);
+    font-size: 30px;
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    line-height:30px;
+    padding:35px;
+    margin-bottom: 25px;
+    position: absolute;
+    
+}
+
+
+.paragraph {
+    font-family: 'Raleway', sans-serif;
+
+}
+.paragraph h4{
+    font-size: 18px;
+}
+.paragraph p {
+    font-size:15px;
+} 
+.content{
+    position: relative;
+}
+
+
+/*======================================media query===============================*/
+/* 
+  @media screen and (max-width: 767px) {
+   
+    #resume .tim::before{ 
+      left:-500px ;
+       
+    }
+     #resume .tim .icon i{
+        right: auto;
+        left:-38px;
+    }
+    #resume .tim .icon i:nth-child(2){
+        left:0;
+
+    }
+
+    #resume .tim content:nth-child(1){
+       justify-content: flex-end;
+    } 
+
+}  */
+
+
+/*======================================== End Resume section==================================================*/
+
+
+/*======================================== start Services section==================================================*/
+
+.serve h5,.serve p{
+    color:var(--main-text-color);
+    text-align:center;
+}
+.serve h5{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.serve i{
+    color: var(--main-text-color);
+    background-color: var(--main-color);
+    border:5px solid rgba(255, 255, 255, 0.4);
+    font-size: 30px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    line-height: 50px;
+    padding: 10px;
+    margin-bottom: 25px;
+    
+}
+
+
+
+/*======================================== End Services section==================================================*/
+
+
+
+
+
+/*======================================== start portfolio work section==================================================*/
+
+.courseList{
+    list-style: none;
+}
+.courseList li{
+    display: inline-block;
+   
+    color: var(--main-bg);
+    margin: 15px ;
+    font-size:15px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.activ{
+ color:var(--main-color) !important;
+ border-bottom: 2px solid  var(--main-color) !important;
+ 
+}
+
+.gallery{
+    column-count: 3;
+    column-gap:10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    
+}
+.gallery img{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.gal{
+    position: relative;
+    
+}
+
+.gal .innerdiv{
+     opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding:15px;
+   background-color: rgba(0 ,0, 0, 0.7);
+   display: flex;
+   justify-content: center;
+    align-items: center;
+   color: var(--main-color);
+   flex-direction: column; 
+   z-index: 1;
+   -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   -ms-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
+
+}
+.gal .innerdiv h6{
+  font-size: 15px;
+  margin-top:-20px;
+  
+  
+}
+.gal .innerdiv h4{
+    font-size: 18px;
+    font-weight: bold;
+     margin-top:180px; 
+   
+}
+
+.gallery .gal:hover .innerdiv{
+    opacity: 1;
+}
+.gallery .gal:hover h6 ,.gallery .gal:hover h4{
+    margin-top: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+
+}
+
+
+
+
+/*======================================== End portfolio work section==================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================== start blog section==================================================*/
+.card-body{
+    font-family: 'Raleway', sans-serif;
+}
+.card-body h5{
+    
+    font-size: 20px; 
+}
+.card-body p.card-text{
+   
+    font-size: 16px; 
+}
+.card-body p.p1{
+    
+    font-size: 14px;
+    font-weight:800;
+}
+
+
+
+
+
+
+
+/*======================================== End blog section==================================================*/
+
+
+
+
+
+
+
+
+/*======================================== start contact section==================================================*/
+
+#contact input:not([type="submit"]){
+    background-color:rgba(0, 0, 0, 0);
+    border:none;
+    padding:15px;
+    border-bottom:2px solid #999898;
+   
+}
+#contact textarea{
+    background-color:rgba(0, 0, 0, 0);
+    border:none;
+    padding:15px;
+    border-bottom:2px solid #999898;
+
+}
+#contact input:not([type="submit"]):focus, textarea:focus{
+    outline: none;
+    color: var(--main-text-color)
+}
+form{
+    width: 100%;
+   
+}
+
+.fill input:not([type="submit"]) {
+    width: 100%;
+    padding:5px;
+    margin-bottom: 15px;
+   
+}
+
+
+
+
+
+
+/*======================================== End Contact section==================================================*/
+
+
+
+
+
+
+
+
+
+
+
+/*==========================================Start footer style==================================================*/
+.list ul{
+    list-style: none;
+   
+}
+.list ul li{
+  padding: 0;
+  margin:0;
+  text-align: left;
+
+}
+.list ul li a{
+    display:inline-block;
+    color:var(--main-text-color);
+    background-color: var(--main-bg);
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right:10px;
+}
+.list ul li a:hover{
+    color: var(--main-color);
+}
+
+
+
+/*======================================== End footer section================================================*/
+
